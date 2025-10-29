@@ -1,0 +1,5 @@
+amount= input('Amount: ')
+amount= round(float(amount),2)
+vat = round(amount*0.23,2)
+print(f'Amount: {amount}')
+print(f'Vat: {vat}')
